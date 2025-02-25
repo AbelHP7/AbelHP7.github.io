@@ -1,0 +1,107 @@
+/* ======== ESTILOS GENERALES ======== */
+/* Configuración básica del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+/* Caja que contiene el contenido principal con sombra y bordes redondeados */
+.container {
+    max-width: 900px; /* Ancho máximo */
+    margin: auto; /* Centrar el contenido */
+    background: white; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* ======== ENCABEZADOS ======== */
+/* Estilos para el título principal */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: #2c3e50; /* Azul oscuro */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los subtítulos principales */
+h2 {
+    color: #2980b9; 
+    border-bottom: 2px solid #2980b9; /* Línea inferior debajo  */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Estilos para los subtítulos secundarios */
+h3 {
+    color: #34495e; 
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* ======== ENLACES ======== */
+/* Estilos básicos para los enlaces */
+a {
+    color: #2980b9; 
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+}
+
+/* Cambia el color y subraya cuando pasas el cursor */
+a:hover {
+    color: #1a5276; 
+    text-decoration: underline;
+}
+
+/* ======== ÍNDICE ======== */
+/* Estilizar la lista del índice */
+#indice {
+    list-style: none;
+    padding: 0;
+}
+
+/* Diseño de los elementos del índice con recuadros */
+#indice li {
+    background: #2980b9; 
+    margin: 5px 0;
+    padding: 12px;
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; 
+    font-size: 16px;
+    border: 2px solid #1a5276; /* Borde para destacar un poco */
+}
+
+/* Estilizar los enlaces dentro de la lista */
+#indice li a {
+    color: white; 
+    display: block; /* Hace que ocupe toda la caja */
+}
+
+/* Cambiar el color cuando se pasa el cursor sobre los elementos del índice */
+#indice li:hover {
+    background: #1a5276; 
+}
+
+/* ======== PÁRRAFOS ======== */
+/* Estilos para los párrafos */
+p {
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #555; 
+    text-align: justify;
+}
+
+/* ======== ESTILOS PARA LAS IMÁGENES ======== */
+.imagen-apartado {
+    width: 180px; /* Tamaño fijo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); /* Sombra más definida */
+}
+
+
+
+
+

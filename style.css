@@ -1,0 +1,151 @@
+/* ----- ESTILOS GENERALES ----- */
+.Imagenes {
+    width: 100%; /* Establece el ancho de todas las imágenes al 100% del contenedor */
+}
+
+/* Centra el texto dentro del contenedor */
+.contenedorInicio {
+    width: 100%;
+    text-align: center;
+}
+
+/* ----- TABLA ----- */
+table {
+    top: 50%; /* Posiciona la tabla en el 50% de la altura relativa a su contenedor */
+    position: relative; /* Mantiene la posición relativa dentro del contenedor */
+    width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+}
+
+td {
+    width: 15%; /* Cada celda ocupa el 15% del ancho total */
+    padding: 1.5%; /* Agrega un espacio interno alrededor del contenido de la celda */
+}
+
+/* ----- IMÁGENES ----- */
+.ImgPortada {
+    top: 0; /* Coloca la imagen en la parte superior */
+    width: 50%; /* La imagen ocupa el 50% del ancho del contenedor */
+}
+
+.imgInicio {
+    width: 60%; /* La imagen ocupa el 60% del ancho del contenedor */
+}
+
+/* ----- MENÚ DE NAVEGACIÓN ----- */
+.dropdownmenu ul, .dropdownmenu li {
+    margin: 0px;
+    padding: 0px;
+    width: 100%; /* Hace que el menú ocupe el ancho completo */
+    height: 40px; /* Define la altura de los elementos del menú */
+    background-color: black; /* Color de fondo del menú */
+}
+
+/* Estilos de la lista del menú */
+.dropdownmenu ul {
+    list-style: none;
+    width: auto;
+}
+
+.dropdownmenu li {
+    float:left; /* Alinea los elementos de la lista en línea */
+    position: relative; /* Posición relativa para los submenús */
+    width: auto;
+}
+
+/* Estilos generales de los enlaces del menú */
+.dropdownmenu a {
+    background-color: black;
+    color: white;
+    display: block;
+    font: bold 14px sans-serif;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+/* Cambia el fondo de los elementos del menú cuando el usuario pasa el cursor */
+.dropdownmenu li:hover a {
+    background: aqua;
+    color: black;
+}
+
+/* ----- SUBMENÚ ----- */
+#submenu {
+    left: 0;
+    position: absolute;
+    top: 10%;
+    visibility: hidden;
+    z-index: 1;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    height: auto;
+}
+
+li:hover ul#submenu {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+#submenu li {
+    width: 100%;
+    height: 100%;
+}
+
+#submenu li:hover a {
+    background-color: grey; 
+}
+
+#submenu a {
+    background-color: aqua;
+    border: solid goldenrod 1px;
+    
+    
+}
+
+/* ----- SUB-SUBMENÚ ----- */
+#subsubmenu {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    visibility: hidden;
+    z-index: 1;
+    width: 180%;
+    background-color: grey;
+    text-align: left; /* Alinea correctamente el texto */
+   
+}
+
+#submenu li:hover ul#subsubmenu {
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
+#submenu #subsubmenu li {
+    width: 100%;
+}
+
+#submenu #subsubmenu li:hover a {
+    background-color: grey;
+    color: white;
+}
+
+#subsubmenu a {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: left; /* Aseguramos que el texto esté alineado a la izquierda */
+}
+
+/* ----- CONFIGURACIÓN DE LA NAVEGACIÓN ----- */
+.navegacion {
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: black; /* Fondo negro */
+    top: 20%; /* Desplazamiento desde la parte superior */
+}
