@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('/ImagenesODS/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantiene el fondo fijo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+ 
+}
+
+.aspectos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aspecto {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sector {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.image-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.indice {
+    background: #ecf0f1;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.indice ul {
+    list-style: none;
+    padding: 0;
+}
+.indice ul li {
+    margin: 5px 0;
+}
+.indice ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
